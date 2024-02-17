@@ -1,0 +1,42 @@
+.heading-h1{
+    color: rgb(4, 169, 251);
+}
+
+.text{
+    font-weight: 600;
+    font-size: 30px;
+    font-style:oblique
+}
+.about-image{
+    height: 10%;
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(0.8);
+  }
+  .image-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  .image-container:hover .image-text {
+    display: block;
+  }
+  .image-text {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
